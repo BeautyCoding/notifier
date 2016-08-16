@@ -1,0 +1,16 @@
+{
+    "name": "beautycoding/notifier",
+    "description": "Javascript to php utils;",
+    "type": "Utils",
+    "require": {
+        "laracasts/utilities": "^2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AntyRace",
+            "email": "antyrace@antyrace.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
