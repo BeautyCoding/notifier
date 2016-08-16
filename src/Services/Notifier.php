@@ -54,7 +54,7 @@ class Notifier
      */
     protected function message(string $type = 'success', string $message)
     {
-        Session::put(sprintf('notifier.%s', $type), $message);
+        Session::push(sprintf('notifier.%s', $type), $message);
     }
 
 }
