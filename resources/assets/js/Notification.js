@@ -19,7 +19,7 @@ var Notification;
                 }
 
                 if(notifier.warning) {
-                    this.showInfos(notifier.warning);
+                    this.showWarnings(notifier.warning);
                 }
             }
         },
